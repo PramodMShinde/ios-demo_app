@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49113A0B1FA85111000B3DC9 /* Contact.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49113A0A1FA85111000B3DC9 /* Contact.storyboard */; };
+		49113A0D1FA85563000B3DC9 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49113A0C1FA85563000B3DC9 /* ContactViewController.swift */; };
+		491B97081FA1BA3F0092DD99 /* AccountListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B97071FA1BA3F0092DD99 /* AccountListViewController.swift */; };
+		491B970A1FA1CB280092DD99 /* CallListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B97091FA1CB280092DD99 /* CallListViewController.swift */; };
+		491B970C1FA1E1470092DD99 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B970B1FA1E1470092DD99 /* CustomCollectionViewLayout.swift */; };
+		491B970E1FA1F5B30092DD99 /* CallListTableViewCustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B970D1FA1F5B30092DD99 /* CallListTableViewCustomCellTableViewCell.swift */; };
+		491B97161FA334D30092DD99 /* LandingSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B97151FA334D30092DD99 /* LandingSplitViewController.swift */; };
+		491B971B1FA3557F0092DD99 /* phone_marketing-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 491B971A1FA3557F0092DD99 /* phone_marketing-512.png */; };
+		491B971D1FA6FF0F0092DD99 /* AddCallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B971C1FA6FF0F0092DD99 /* AddCallViewController.swift */; };
+		491B971F1FA72AA40092DD99 /* SelectCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B971E1FA72AA40092DD99 /* SelectCustomerViewController.swift */; };
+		491B97211FA72AB50092DD99 /* SelectContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B97201FA72AB40092DD99 /* SelectContactViewController.swift */; };
+		491B97231FA74D260092DD99 /* CallDetailEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491B97221FA74D260092DD99 /* CallDetailEntryViewController.swift */; };
 		4976598D1FA0742000E69D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976598C1FA0742000E69D9D /* AppDelegate.swift */; };
 		4976598F1FA0742000E69D9D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976598E1FA0742000E69D9D /* MasterViewController.swift */; };
 		497659911FA0742000E69D9D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497659901FA0742000E69D9D /* DetailViewController.swift */; };
@@ -15,6 +27,7 @@
 		497659991FA0742000E69D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497659971FA0742000E69D9D /* LaunchScreen.storyboard */; };
 		497659A41FA0742000E69D9D /* demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497659A31FA0742000E69D9D /* demoTests.swift */; };
 		497659AF1FA0742000E69D9D /* demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497659AE1FA0742000E69D9D /* demoUITests.swift */; };
+		49E9023D1FA8A075006D2A0E /* LoginViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E9023C1FA8A075006D2A0E /* LoginViewController .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49113A0A1FA85111000B3DC9 /* Contact.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Contact.storyboard; sourceTree = "<group>"; };
+		49113A0C1FA85563000B3DC9 /* ContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		491B97071FA1BA3F0092DD99 /* AccountListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountListViewController.swift; sourceTree = "<group>"; };
+		491B97091FA1CB280092DD99 /* CallListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallListViewController.swift; sourceTree = "<group>"; };
+		491B970B1FA1E1470092DD99 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
+		491B970D1FA1F5B30092DD99 /* CallListTableViewCustomCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallListTableViewCustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		491B97151FA334D30092DD99 /* LandingSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingSplitViewController.swift; sourceTree = "<group>"; };
+		491B971A1FA3557F0092DD99 /* phone_marketing-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_marketing-512.png"; sourceTree = "<group>"; };
+		491B971C1FA6FF0F0092DD99 /* AddCallViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCallViewController.swift; sourceTree = "<group>"; };
+		491B971E1FA72AA40092DD99 /* SelectCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectCustomerViewController.swift; sourceTree = "<group>"; };
+		491B97201FA72AB40092DD99 /* SelectContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectContactViewController.swift; sourceTree = "<group>"; };
+		491B97221FA74D260092DD99 /* CallDetailEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallDetailEntryViewController.swift; sourceTree = "<group>"; };
 		497659891FA0742000E69D9D /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4976598C1FA0742000E69D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4976598E1FA0742000E69D9D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +74,7 @@
 		497659AA1FA0742000E69D9D /* demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = demoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		497659AE1FA0742000E69D9D /* demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoUITests.swift; sourceTree = "<group>"; };
 		497659B01FA0742000E69D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49E9023C1FA8A075006D2A0E /* LoginViewController .swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginViewController .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +125,7 @@
 		4976598B1FA0742000E69D9D /* demo */ = {
 			isa = PBXGroup;
 			children = (
+				491B971A1FA3557F0092DD99 /* phone_marketing-512.png */,
 				4976598C1FA0742000E69D9D /* AppDelegate.swift */,
 				4976598E1FA0742000E69D9D /* MasterViewController.swift */,
 				497659901FA0742000E69D9D /* DetailViewController.swift */,
@@ -106,6 +133,18 @@
 				497659951FA0742000E69D9D /* Assets.xcassets */,
 				497659971FA0742000E69D9D /* LaunchScreen.storyboard */,
 				4976599A1FA0742000E69D9D /* Info.plist */,
+				491B97071FA1BA3F0092DD99 /* AccountListViewController.swift */,
+				491B97091FA1CB280092DD99 /* CallListViewController.swift */,
+				491B970B1FA1E1470092DD99 /* CustomCollectionViewLayout.swift */,
+				491B970D1FA1F5B30092DD99 /* CallListTableViewCustomCellTableViewCell.swift */,
+				491B97151FA334D30092DD99 /* LandingSplitViewController.swift */,
+				49E9023C1FA8A075006D2A0E /* LoginViewController .swift */,
+				491B971C1FA6FF0F0092DD99 /* AddCallViewController.swift */,
+				491B971E1FA72AA40092DD99 /* SelectCustomerViewController.swift */,
+				491B97201FA72AB40092DD99 /* SelectContactViewController.swift */,
+				491B97221FA74D260092DD99 /* CallDetailEntryViewController.swift */,
+				49113A0A1FA85111000B3DC9 /* Contact.storyboard */,
+				49113A0C1FA85563000B3DC9 /* ContactViewController.swift */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -237,7 +276,9 @@
 			files = (
 				497659991FA0742000E69D9D /* LaunchScreen.storyboard in Resources */,
 				497659961FA0742000E69D9D /* Assets.xcassets in Resources */,
+				491B971B1FA3557F0092DD99 /* phone_marketing-512.png in Resources */,
 				497659941FA0742000E69D9D /* Main.storyboard in Resources */,
+				49113A0B1FA85111000B3DC9 /* Contact.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +303,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				491B971D1FA6FF0F0092DD99 /* AddCallViewController.swift in Sources */,
+				49113A0D1FA85563000B3DC9 /* ContactViewController.swift in Sources */,
+				491B97211FA72AB50092DD99 /* SelectContactViewController.swift in Sources */,
+				491B97231FA74D260092DD99 /* CallDetailEntryViewController.swift in Sources */,
+				49E9023D1FA8A075006D2A0E /* LoginViewController .swift in Sources */,
+				491B97161FA334D30092DD99 /* LandingSplitViewController.swift in Sources */,
+				491B970A1FA1CB280092DD99 /* CallListViewController.swift in Sources */,
 				497659911FA0742000E69D9D /* DetailViewController.swift in Sources */,
 				4976598F1FA0742000E69D9D /* MasterViewController.swift in Sources */,
+				491B97081FA1BA3F0092DD99 /* AccountListViewController.swift in Sources */,
+				491B970C1FA1E1470092DD99 /* CustomCollectionViewLayout.swift in Sources */,
+				491B971F1FA72AA40092DD99 /* SelectCustomerViewController.swift in Sources */,
+				491B970E1FA1F5B30092DD99 /* CallListTableViewCustomCellTableViewCell.swift in Sources */,
 				4976598D1FA0742000E69D9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,6 +561,7 @@
 				497659B51FA0742000E69D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497659B61FA0742000E69D9D /* Build configuration list for PBXNativeTarget "demoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +570,7 @@
 				497659B81FA0742000E69D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		497659B91FA0742000E69D9D /* Build configuration list for PBXNativeTarget "demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +579,7 @@
 				497659BB1FA0742000E69D9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

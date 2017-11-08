@@ -1,26 +1,23 @@
 //
-//  DetailViewController.swift
+//  ContactViewController.swift
 //  demo
 //
-//  Created by Websym Solutions on 10/25/17.
+//  Created by Websym Solutions on 10/31/17.
 //  Copyright © 2017 Websym Solutions. All rights reserved.
 //
 
 import UIKit
 
-class DetailViewController: UIViewController {
+class ContactViewController: UIViewController {
 
-    @IBOutlet weak var selectedMenuLabel: UILabel!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
 
-        //draw the menu button in portrait mode
+        // Do any additional setup after loading the view.
         if let splitView = self.navigationController?.splitViewController, !splitView.isCollapsed {
             self.navigationItem.leftBarButtonItem = splitView.displayModeButtonItem
         }
-        print("Home page loaded")
+        print("Contact list page loaded")
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,4 +26,3 @@ class DetailViewController: UIViewController {
     }
 
 }
-
